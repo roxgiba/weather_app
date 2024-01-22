@@ -7,7 +7,7 @@ export default function Navbar() {
       <h3>NextJS project for personal portfolio</h3>
       <form className="search">
         <label for="src">
-          Search:
+          Search:{"    "}
           <input
             id="src"
             type="search"

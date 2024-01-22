@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* BG IMAGE */
 body {
   background-image: url("/tree-clouds.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .navbar {
   display: block;
 }
@@ -16,6 +18,7 @@ h1 {
   margin: 5% 1% auto;
   font-size: xx-large;
   font-weight: 600;
+  color: rgb(255, 255, 255);
 }
 
 h3 {
@@ -29,6 +32,13 @@ h3 {
 }
 
 #src {
-  border: 1px solid rgb(182, 182, 245);
-  border-radius: 15px;
+  border: none;
+}
+
+/* NAVBAR END*/
+
+/* MAIN */
+
+.main {
+  text-align: center;
 }
