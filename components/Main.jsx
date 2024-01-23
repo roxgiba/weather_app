@@ -4,7 +4,7 @@ export default function Main({ isLoading, searchQuery, data }) {
   return (
     <div className="main">
       <div className="container">
-        <h3>
+        <h3 className="intro">
           Today, {new Date().toLocaleDateString()}, the weather in{" "}
           <span className="underline">
             {searchQuery.length === 0 ? "..." : searchQuery}

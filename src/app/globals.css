@@ -50,7 +50,12 @@ h3 {
   margin: auto;
   margin-bottom: 20px;
 }
-
+.intro {
+  font-weight: 700;
+  font-size: x-large;
+}
 .info {
   text-align: center;
+  padding: 10px;
+  font-size: larger;
 }
