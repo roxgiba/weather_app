@@ -1,7 +1,7 @@
 import { Cabin } from "next/font/google";
 import "./globals.css";
 
-const inter = Cabin({ subsets: ["latin"] });
+const cabin = Cabin({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Weather App",
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={cabin.className}>{children}</body>
     </html>
   );
 }
