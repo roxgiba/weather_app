@@ -7,6 +7,7 @@ body {
   background-image: url("/tree-clouds.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .navbar {
@@ -33,6 +34,8 @@ h3 {
 
 #src {
   border: none;
+  background-color: rgba(240, 255, 255, 0.3);
+  color: black;
 }
 
 /* NAVBAR END*/
@@ -40,5 +43,10 @@ h3 {
 /* MAIN */
 
 .main {
-  text-align: center;
+  background-color: rgba(240, 255, 255, 0.3);
+  width: 60%;
+  height: 200px;
+  color: black;
+  margin: auto;
+  margin-bottom: 20px;
 }

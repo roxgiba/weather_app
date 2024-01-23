@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar({ onSearchChange }) {
   return (
     <div className="navbar">
       <h1>WEATHER APP</h1>
@@ -13,6 +13,7 @@ export default function Navbar() {
             type="search"
             name="src"
             placeholder="Enter your city..."
+            onChange={onSearchChange}
           />
         </label>
       </form>
