@@ -8,7 +8,7 @@ export default function Main({ isLoading, searchQuery, data }) {
           Today, {new Date().toLocaleDateString()}, the weather in{" "}
           <span className="underline">
             {searchQuery.length === 0 ? "..." : searchQuery}
-          </span>{" "}
+          </span>
         </h3>
 
         {isLoading ? (
@@ -18,7 +18,7 @@ export default function Main({ isLoading, searchQuery, data }) {
             {/* Display weather information and temperature from the 'data' array */}
             {/* Adjust the logic based on your specific requirements */}
             {data.length > 0 && (
-              <div>
+              <div className="info">
                 <div>
                   Weather:{" "}
                   {data[0].weather.length > 0 && data[0].weather[0].description}
