@@ -14,11 +14,9 @@ export default function Main({ isLoading, searchQuery, data }) {
         {isLoading ? (
           <p>Loading...</p>
         ) : (
-          <div>
-            {/* Display weather information and temperature from the 'data' array */}
-            {/* Adjust the logic based on your specific requirements */}
+          <div className="info">
             {data.length > 0 && (
-              <div className="info">
+              <div>
                 <div>
                   Weather:{" "}
                   {data[0].weather.length > 0 && data[0].weather[0].description}
